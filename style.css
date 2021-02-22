@@ -1,0 +1,44 @@
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+div .left {
+  float: left;
+  width: 45%;
+  display: inline-block;
+  padding: 10px;
+}
+div .right {
+  float: right;
+  width: 45%;
+  display: inline-block;
+  padding: 10px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    background-color: pink;
+  }
+  h1 {
+    color: cyan;
+    border: 5px solid black;
+  }
+
+  div .left {
+    float: none;
+    width: initial;
+  }
+
+  div .right {
+    float: none;
+    width: initial;
+  }
+}
